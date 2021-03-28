@@ -23,8 +23,10 @@ const Bar = styled.div`
   border-radius: 4px;
   overflow: hidden;
   height: 100%;
+  position: relative;
 
   :before {
+    position: absolute;
     content: "";
     display: inline-block;
     height: 100%;

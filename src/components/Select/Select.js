@@ -31,6 +31,10 @@ const CustomSelect = styled.select`
   color: transparent;
   background-color: transparent;
   border-radius: 8px;
+
+  option {
+    color: initial;
+  }
 `;
 
 const ChevronIcon = styled(Icon).attrs({ id: "chevron-down" })`
