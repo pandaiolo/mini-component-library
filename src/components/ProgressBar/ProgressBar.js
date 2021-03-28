@@ -44,7 +44,7 @@ const ProgressBar = ({ value, size, ...delegate }) => {
       {...delegate}
     >
       <VisuallyHidden>
-        <label id="progress">{value}</label>
+        <label id="progress">{value}%</label>
       </VisuallyHidden>
       <Bar value={value} />
     </Wrapper>
